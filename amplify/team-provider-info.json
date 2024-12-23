@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-joodleverone-dev-235547-authRole",
+      "UnauthRoleArn": "arn:aws:iam::142507315996:role/amplify-joodleverone-dev-235547-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::142507315996:role/amplify-joodleverone-dev-235547-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-joodleverone-dev-235547-deployment",
+      "UnauthRoleName": "amplify-joodleverone-dev-235547-unauthRole",
+      "StackName": "amplify-joodleverone-dev-235547",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:142507315996:stack/amplify-joodleverone-dev-235547/76cda980-c7f8-11ed-beee-0287199b2b1c",
+      "AmplifyAppId": "dzsf9dbax5v0b"
+    },
+    "categories": {
+      "auth": {
+        "joodleverone": {}
+      },
+      "storage": {
+        "s3joodleveronestoragee7ed8e23": {}
+      }
+    }
+  },
+  "junheon": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-joodleverone-junheon-234822-authRole",
+      "UnauthRoleArn": "arn:aws:iam::142507315996:role/amplify-joodleverone-junheon-234822-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::142507315996:role/amplify-joodleverone-junheon-234822-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-joodleverone-junheon-234822-deployment",
+      "UnauthRoleName": "amplify-joodleverone-junheon-234822-unauthRole",
+      "StackName": "amplify-joodleverone-junheon-234822",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:142507315996:stack/amplify-joodleverone-junheon-234822/b934d600-f3f8-11ed-bc4f-02a11200ba60",
+      "AmplifyAppId": "dzsf9dbax5v0b"
+    },
+    "categories": {
+      "auth": {
+        "joodleverone": {}
+      }
+    }
+  }
+}

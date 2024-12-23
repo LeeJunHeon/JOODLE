@@ -1,0 +1,51 @@
+type PopularMenuListModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  price: Int!
+  detail: String!
+  rank: Int!
+  image_info: String
+}
+
+type CheckboxModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  menu_name: String!
+  option: [String!]
+  price: [Int!]
+  isSelected: [Boolean!]
+  sequence: Int
+}
+
+type RadioboxModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  menu_name: String!
+  option: [String!]
+  price: [Int!]
+  isSelected: [Int!]
+  sequence: Int
+}
+
+type ShoppingCartModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  price: Int!
+  option: String!
+  count: Int!
+  isSelected: Boolean!
+  sequence: Int!
+  iamge_info: String
+}
+
+type MenuListModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  category_name: String!
+  name: [String!]
+  price: [Int!]
+  detail: [String!]
+  sequence_in: [Int]
+  sequence_out: Int
+  image_info: [String]
+}
+  

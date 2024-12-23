@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3joodleveronestoragee7ed8e23",
+  "bucketName": "joodleverone-storage-e7ed8e23",
+  "policyUUID": "e954908d",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
